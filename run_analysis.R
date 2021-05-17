@@ -1,7 +1,8 @@
 ### Coursera Data Science 
 ### Getting and Cleaning Data
 ### Week 4 - Programming Assignment
-### run_analysis.R
+### Script name run_analysis.R
+### Date 2021-05-17
 
 library(dplyr)
 
