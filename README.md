@@ -38,4 +38,8 @@ filename: independented_tidy_data_step5.txt
 
 This is an independent tidy data set with the average of each variable for each activity and each subject, and it is the final data set result from running the script run_analysis.R
 
+### Code book
+filename: CodeBook.md
 
+This file is a code book that describes the variables, the data, and any transformations or work that were performed to clean up the data.
+Details on the transformations and functions used are outlined in the file run_analysis.R as markdown.
