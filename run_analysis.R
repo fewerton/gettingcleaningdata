@@ -40,7 +40,7 @@ mean_sd_merged_data <- left_join(mean_sd_merged_data, activities, by="class_labe
     
 ## Appropriately labels the data set with descriptive variable names. ####
 
-names(mean_sd_merged_data)[2] = "activity_class_label"
+names(mean_sd_merged_data)[2] <- "activity_class_label"
 names(mean_sd_merged_data)<-gsub("Acc", "accelerometer", names(mean_sd_merged_data))
 names(mean_sd_merged_data)<-gsub("Gyro", "gyroscope", names(mean_sd_merged_data))
 names(mean_sd_merged_data)<-gsub("BodyBody", "body", names(mean_sd_merged_data))
